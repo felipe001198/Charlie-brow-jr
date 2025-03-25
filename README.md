@@ -1,0 +1,68 @@
+Nome: Felipe Teixeira de Campos 
+RA: 00119388
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charlie Brown Jr. - Portfólio</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #1e1e1e; color: white; text-align: center; }
+        header { background: #000; padding: 20px; }
+        nav ul { list-style: none; padding: 0; }
+        nav ul li { display: inline; margin: 0 15px; }
+        nav ul li a { color: white; text-decoration: none; }
+        #hero img { width: 100%; max-height: 400px; object-fit: cover; }
+        section { padding: 50px; }
+        .card { background: #333; padding: 20px; margin: 20px auto; width: 80%; border-radius: 10px; }
+        .btn { padding: 10px 20px; background: #ffcc00; border: none; cursor: pointer; margin: 10px; }
+        .btn:hover { background: #ffaa00; }
+        footer { background: #000; padding: 20px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Charlie Brown Jr.</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="hero">
+        <img src="c:\Users\Kaique\Pictures\charlie brow.jpg" alt="Imagem destaque Charlie Brown Jr.">
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre</h2>
+        <p>Charlie Brown Jr. foi uma banda de rock brasileira formada em Santos, em 1992, tendo em sua formação original o vocalista Chorão, o baixista Champignon, os guitarristas Marcão Britto e Thiago Castanho, além do baterista Renato Pelado. Sua discografia contabiliza dez álbuns de estúdio lançados, três álbuns ao vivo e sete DVDs. Excetuando Chorão, todos os membros da banda são naturais de Santos, uma vez que o vocalista é natural de São Paulo.</p>
+    </section>
+
+    <section id="projetos">
+        <h2>Projetos</h2>
+        <div class="card"> 
+            <h3>Álbum: Transpiração Contínua Prolongada</h3>
+            <p>Lançado em 1997, este foi o álbum de estreia da banda, marcando a cena do rock nacional.</p>
+        </div>
+        <div class="card"> 
+            <h3>Álbum: Bocas Ordinárias</h3>
+            <p>Um dos álbuns mais icônicos da banda, com sucessos como "Papo Reto".</p>
+        </div>
+    </section>
+    
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Para mais informações, siga a banda nas redes sociais!</p>
+        <button class="btn">Instagram</button>
+        <button class="btn">Spotify</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Charlie Brown Jr. - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
